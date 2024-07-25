@@ -1,0 +1,11 @@
+body{
+    font-family: Platypi;
+}
+h1{
+    text-align: center;
+}
+/**
+::-webkit-scrollbar{
+    border-radius: 20px;
+}
+*/

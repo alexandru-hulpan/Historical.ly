@@ -1,0 +1,81 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fd77b90805.js" crossorigin="anonymous"></script>
+    <title>Concurs</title>
+</head>
+<body>
+    <button onclick="topFunction()" class="btn" id="btn" style='font-size:24px'><i class='fas fa-arrow-alt-circle-up' style='font-size:70px;color:red'></i></button>
+   <script>
+    var mybutton = document.getElementById("btn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+   </script>
+   <div class="nav">
+        <a href="">Bibliografie</a>
+        <a href="">Contact</a>
+        <a href="istorie.html">Istorie</a>  
+        <a href="login.php">Conectare</a>
+        <a href="index.html" style="color: yellowgreen;">Home</a>
+   </div>
+   <!--https://coolors.co/353535-3c6e71-ffffff-d9d9d9-284b63-->
+   <br>
+
+   <div class="main">
+        <h1>Istoria</h1>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ut nisi quibusdam. Sint odit ipsa, pariatur velit nulla ab dolorum sit minus quibusdam consequatur praesentium quidem expedita porro ad maxime.</h2>
+   </div>
+   
+   <div class="intro">
+        <h1>Introducere</h1>
+        <br>
+        <div class="c1">
+            <h2>Chapter 1</h2>
+            <p><img src="Resurse/img.jpg" style="float: left; border-radius: 50%; width: 6.5%; margin: 10px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi adipisci quis aliquam molestias omnis amet velit aut ut. Officiis fuga aut hic quisquam non recusandae tempore, sint saepe quae autem.</p>
+        </div>
+        <br>
+        <div class="c2">
+            <h2 style="text-align: right; margin-right: 15px;">Chapter 2</h2>
+            <p><img src="Resurse/img.jpg" style="float: right; border-radius: 50%; width: 6.5%; margin: 10px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit voluptates sapiente natus deserunt ullam eum nam minima voluptatum nemo similique corporis, consequatur excepturi reprehenderit magnam rerum dolor quidem, veritatis quaerat! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo maxime eveniet repellat veniam, aliquam in alias totam cupiditate officia deserunt vel voluptatum corrupti quisquam officiis voluptate nisi? Eius, numquam provident!</p>
+        </div>
+   </div>
+   <div class="footer">
+        <h2>Istorie</h2>
+        <h2>Concursul "Istorie si societate in dimensiune virtuala" 2025</h2>
+        <div class="link">
+            <h3>Link-uri utile:</h3>
+            <ul>
+                <li>Chapter 1</li>
+                <li>Chapter 2</li>
+                <li>Chapter 3</li>
+            </ul>
+        </div>
+        <div class="info">
+            <p>Creator: <b>Hulpan Constantin - Alexandru</b></p>
+            <p>Prof. coordonator:</p>
+            <p>Liceul Teoretic "Emil Racovita" Vaslui</p>
+            <p>Proiect realizat folosind: HTML 5, CSS 3 si JavScript.</p>
+        </div>
+   </div>
+</body>
+</html>

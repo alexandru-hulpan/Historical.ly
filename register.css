@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-family: Platypi;
+}
+.nav{
+    background-color: #284B63;
+    opacity: 1;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    margin: 10px;
+    float: right;
+}
+.nav a:hover{
+    color: yellowgreen;
+}
+.container{
+    background-color: aquamarine;
+    width: 20%;
+    border-radius: 15px;
+    display: flexbox;
+    margin: auto;
+}
